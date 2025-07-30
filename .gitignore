@@ -1,0 +1,25 @@
+# Angular (client)
+client/node_modules/
+client/dist/
+client/.angular/
+client/.env
+
+# ASP.NET Core (server)
+server/bin/
+server/obj/
+server/*.user
+server/*.suo
+server/.vs/
+server/wwwroot/
+
+# Common
+*.log
+*.tmp
+*.swp
+.DS_Store
+.vscode/
+.env
+.env.*
+
+# OS-specific
+Thumbs.db
