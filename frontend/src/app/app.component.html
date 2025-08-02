@@ -1,4 +1,13 @@
-<h2>Backend says: {{ backendMessage }}</h2>
-@if(backendTime) {
-  <p>Time: {{ backendTime }}</p>
-}
+<div class="card my-4">
+  <div class="card-header">
+    <h2 class="mb-0">Backend says:</h2>
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{ backendMessage }}</p>
+    @if(backendTime) {
+      <p class="card-text">
+        <span class="fw-bold">Time:</span> {{ backendTime }}
+      </p>
+    }
+  </div>
+</div>
